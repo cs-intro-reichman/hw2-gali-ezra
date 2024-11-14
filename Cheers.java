@@ -4,11 +4,11 @@ public class Cheers {
 	    String string = args[0];
             String upperCaseString= string.toUpperCase();
             int number = Integer.parseInt(args[1]);
-            String letters = "AEFHILMNOR";
+            String letters = "AEFHLMNORI";
             
             for(int i=0;i<string.length(); i++)
             {
-                if (letters.indexOf(string.charAt(i))!= -1)
+                if (letters.indexOf(upperCaseString.charAt(i))!= -1)
                 {
                         System.out.println("Give me an " + upperCaseString.charAt(i)+ ": "+ upperCaseString.charAt(i)+"!");
                 }
