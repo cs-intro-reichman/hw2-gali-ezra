@@ -14,7 +14,7 @@ public class Cheers {
                 }
                 else
                 {
-                        System.out.println("Give me a " + upperCaseString.charAt(i)+ ": "+ upperCaseString.charAt(i)+"!");
+                        System.out.println("Give me a  " + upperCaseString.charAt(i)+ ": "+ upperCaseString.charAt(i)+"!");
                 }
             }
             System.out.println("What does that spell?");
