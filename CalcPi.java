@@ -23,7 +23,7 @@ public class CalcPi {
 
 	   double CalcPi = sum*4;
 	   System.out.println("pi according to Java: "+ Math.PI);
-	   System.out.println("pi, approximated:	 "+CalcPi );
+	   System.out.println("pi, approximated:     "+CalcPi );
 
 	}
 }
